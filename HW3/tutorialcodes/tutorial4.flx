@@ -1,0 +1,36 @@
+%{
+#include "tutorial4.h"
+#include "tutorial4.tab.h"
+
+int lineCount = 1;
+
+%}
+
+%%
+
+"=" {
+    yylval.lineNum = lineCount;
+    return tASSIGN;
+    }
+"+" { return tPLUS;}
+[0-9]+ {
+    char *result = (char *)malloc(strlen(yytext));
+    strcpy(result,yytext);
+    yylval.lineNum = lineCount;
+    yylval.numberNode.value = result;
+    return tNUMBER;
+}
+
+[A-Za-z]+ {
+    yylval.identNode.lineNum = lineCount;
+
+    char *result = (char *)malloc(strlen(yytext));
+    strcpy(result,yytext);
+    yylval.identNode.value = result;
+
+    return tIDENT;}
+
+[\n]    lineCount += 1;
+[\t ] ;
+.	    return yytext[0];
+%%
