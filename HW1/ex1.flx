@@ -1,0 +1,29 @@
+%{
+    int noLines = 1;
+    int lastindex = 0;
+    int i,j;
+    char value[100];
+    char flag = '0';
+%}
+
+tNUM        -?[0-9]+"."?[0-9]+
+
+%%
+{tNUM}      {
+    for(i=0;i<sizeof(value);i++) 
+    {
+        value[i] = '\0';
+        printf(value[i]);
+        }
+    printf("%d tNUM (%s) (%s)\n", noLines, yytext, yytext[lastindex]);
+}
+    
+
+-?[0-9]+    printf("%d tNUM (%s)\n", noLines, yytext);
+
+%%
+int main() 
+{
+    yylex();
+    return(0);
+}
