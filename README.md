@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Programming Languages](https://img.shields.io/badge/CS305_Programming%Languages-blueviolet)
+![Programming Languages](https://img.shields.io/badge/CS305-Programming%20Languages-blueviolet)
 ![Course](https://img.shields.io/badge/Sabanci%20University-CS305-blue)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
