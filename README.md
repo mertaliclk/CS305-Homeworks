@@ -2,15 +2,15 @@
 
 <div align="center">
 
-![Computer Graphics](https://img.shields.io/badge/CS405-Computer%20Graphics-blueviolet)
-![Course](https://img.shields.io/badge/Sabanci%20University-CS405-blue)
+![Computer Graphics](https://img.shields.io/badge/CS305-Programming%Languages-blueviolet)
+![Course](https://img.shields.io/badge/Sabanci%20University-CS305-blue)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
 </div>
 
 ## 📚 Course Overview
 
-This repository contains my homework assignments for the Computer Graphics course (CS405) at Sabanci University. Each assignment focuses on different aspects of computer graphics, from basic concepts to advanced implementations.
+This repository encompasses my homework assignments and projects developed for the CS305 – Programming Languages course at Sabanci University. The course is designed to solidify fundamental programming concepts and cultivate problem-solving skills through structured assignments and algorithmic challenges. Topics covered include procedural and object-oriented paradigms, data structures, recursion, modular design, and practical implementation strategies.
 
 
 ## 📝 Notes
@@ -26,8 +26,8 @@ Mert Ali Celik
 
 ## 📚 Course Information
 
-- **Course Code:** CS405
-- **Course Name:** Computer Graphics
+- **Course Code:** CS305
+- **Course Name:** Programming Languages
 - **Institution:** Sabanci University
 
 ## 🙏 Acknowledgments
